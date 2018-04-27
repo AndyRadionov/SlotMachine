@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slots_view_height">200dp</dimen>
+    <dimen name="slots_iv_item_size">50dp</dimen>
+    <dimen name="menu_logo_margin">40dp</dimen>
+    <dimen name="menu_logo_size">128dp</dimen>
+    <dimen name="menu_start_btn_margin">20dp</dimen>
+    <dimen name="button_height">32dp</dimen>
+    <dimen name="menu_rules_btn_margin">4dp</dimen>
+    <dimen name="scores_board_margin_top">24dp</dimen>
+    <dimen name="scores_board_margin_right">20dp</dimen>
+    <dimen name="scores_board_width">80dp</dimen>
+    <dimen name="scores_board_height">110dp</dimen>
+    <dimen name="scores_title">18dp</dimen>
+    <dimen name="scores_text_margin_top">4dp</dimen>
+    <dimen name="bet_title_margin_top">8dp</dimen>
+    <dimen name="winner_line_height">52dp</dimen>
+    <dimen name="slots_height">260dp</dimen>
+    <dimen name="slots_margin">24dp</dimen>
+    <dimen name="slots_padding">4dp</dimen>
+    <dimen name="btn_margin_bottom">4dp</dimen>
+    <dimen name="scores_size">16sp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project09</string>
+
+    <string name="rules">1. В начале игры игроку дается 500 очков.\n2. Ставка выбирается нажатие кнопки \"Ставка\".\n3.Размер вознагрождения от сделанной ставки:\n    *2 (3 совпадения), *3 (4 совпадеиня), *4 (5 совпадений).\n4. Игра заканчивается либо по кнопке \"Меню\", либо при исчерпании средств игрока.</string>
+    <string name="rules_title">Правила игры</string>
+    <string name="play_btn_title">Играть</string>
+    <string name="menu_btn_title">Меню</string>
+    <string name="scores_dialog_title">Результат игры</string>
+    <string name="scores_dialog_text">Вы исчерпали ваш баланс очков!</string>
+    <string name="rules_btn_text">Правила</string>
+    <string name="scores">Очки</string>
+    <string name="bet">Cтавка</string>
+    <string name="bet_btn_title">Ставка</string>
+    <string name="spin_btn_title">Крутить</string>
+
+</resources>

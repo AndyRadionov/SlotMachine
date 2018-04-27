@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GameActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/scores_board_width"
+        android:layout_height="@dimen/scores_board_height"
+        android:layout_marginRight="@dimen/scores_board_margin_right"
+        android:background="@drawable/bg_scores"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linear_slots">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/scores"
+            android:paddingTop="@dimen/scores_text_margin_top"
+            android:text="@string/scores"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scores_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/scores_text_margin_top"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/scores_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bet_title_margin_top"
+            android:fontFamily="@font/scores"
+            android:text="@string/bet"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scores_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_bet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/scores_text_margin_top"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/scores_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/winner_line_height"
+        android:background="@drawable/bg_scores"
+        app:layout_constraintBottom_toBottomOf="@id/linear_slots"
+        app:layout_constraintLeft_toLeftOf="@id/linear_slots"
+        app:layout_constraintRight_toRightOf="@id/linear_slots"
+        app:layout_constraintTop_toTopOf="@id/linear_slots" />
+
+    <aaa.bbb.ccc09.slotsmachine.SlotsView
+        android:id="@+id/linear_slots"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/slots_height"
+        android:layout_marginTop="@dimen/slots_margin"
+        android:background="@drawable/bg_scores"
+        android:orientation="horizontal"
+        android:padding="@dimen/slots_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <aaa.bbb.ccc09.slotsmachine.SlotView
+            android:id="@+id/slot_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <aaa.bbb.ccc09.slotsmachine.SlotView
+            android:id="@+id/slot_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <aaa.bbb.ccc09.slotsmachine.SlotView
+            android:id="@+id/slot_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <aaa.bbb.ccc09.slotsmachine.SlotView
+            android:id="@+id/slot_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <aaa.bbb.ccc09.slotsmachine.SlotView
+            android:id="@+id/slot_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+    </aaa.bbb.ccc09.slotsmachine.SlotsView>
+
+    <Button
+        android:id="@+id/btn_menu"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/scores"
+        android:text="@string/menu_btn_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_bet" />
+
+    <Button
+        android:id="@+id/btn_bet"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/scores"
+        android:text="@string/bet_btn_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btn_spin"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/scores"
+        android:text="@string/spin_btn_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_bet" />
+</android.support.constraint.ConstraintLayout>

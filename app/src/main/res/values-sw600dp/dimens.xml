@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slots_iv_item_size">100dp</dimen>
+    <dimen name="menu_logo_margin">120dp</dimen>
+    <dimen name="menu_logo_size">200dp</dimen>
+    <dimen name="scores_board_width">160dp</dimen>
+    <dimen name="scores_board_height">160dp</dimen>
+    <dimen name="scores_title">30sp</dimen>
+    <dimen name="winner_line_height">104dp</dimen>
+    <dimen name="slots_height">500dp</dimen>
+    <dimen name="slots_margin">72dp</dimen>
+    <dimen name="scores_size">24sp</dimen>
+</resources>
