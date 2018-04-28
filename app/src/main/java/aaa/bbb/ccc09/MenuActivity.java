@@ -1,11 +1,10 @@
-package aaa.bbb.ccc09.ui;
+package aaa.bbb.ccc09;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import aaa.bbb.ccc09.R;
 import libs.mjn.prettydialog.PrettyDialog;
 import libs.mjn.prettydialog.PrettyDialogCallback;
 

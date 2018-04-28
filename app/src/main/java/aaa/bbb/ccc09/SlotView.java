@@ -1,4 +1,4 @@
-package aaa.bbb.ccc09.slotsmachine;
+package aaa.bbb.ccc09;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

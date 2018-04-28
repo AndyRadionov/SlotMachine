@@ -1,5 +1,4 @@
-package aaa.bbb.ccc09.ui;
-
+package aaa.bbb.ccc09;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -7,7 +6,6 @@ import android.graphics.Typeface;
 
 import com.daimajia.androidanimations.library.Techniques;
 
-import aaa.bbb.ccc09.R;
 import wail.splacher.com.splasher.lib.SplasherActivity;
 import wail.splacher.com.splasher.models.SplasherConfig;
 import wail.splacher.com.splasher.utils.Const;

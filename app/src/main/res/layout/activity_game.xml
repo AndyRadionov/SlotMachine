@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.GameActivity">
+    tools:context=".GameActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         app:layout_constraintRight_toRightOf="@id/linear_slots"
         app:layout_constraintTop_toTopOf="@id/linear_slots" />
 
-    <aaa.bbb.ccc09.slotsmachine.SlotsView
+    <aaa.bbb.ccc09.SlotsView
         android:id="@+id/linear_slots"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/slots_height"
@@ -90,36 +90,36 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <aaa.bbb.ccc09.slotsmachine.SlotView
+        <aaa.bbb.ccc09.SlotView
             android:id="@+id/slot_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scrollbars="none" />
 
-        <aaa.bbb.ccc09.slotsmachine.SlotView
+        <aaa.bbb.ccc09.SlotView
             android:id="@+id/slot_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scrollbars="none" />
 
-        <aaa.bbb.ccc09.slotsmachine.SlotView
+        <aaa.bbb.ccc09.SlotView
             android:id="@+id/slot_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scrollbars="none" />
 
-        <aaa.bbb.ccc09.slotsmachine.SlotView
+        <aaa.bbb.ccc09.SlotView
             android:id="@+id/slot_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scrollbars="none" />
 
-        <aaa.bbb.ccc09.slotsmachine.SlotView
+        <aaa.bbb.ccc09.SlotView
             android:id="@+id/slot_five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scrollbars="none" />
-    </aaa.bbb.ccc09.slotsmachine.SlotsView>
+    </aaa.bbb.ccc09.SlotsView>
 
     <Button
         android:id="@+id/btn_menu"

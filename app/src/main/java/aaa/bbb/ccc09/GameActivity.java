@@ -1,4 +1,4 @@
-package aaa.bbb.ccc09.ui;
+package aaa.bbb.ccc09;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import aaa.bbb.ccc09.R;
-import aaa.bbb.ccc09.slotsmachine.Callback;
-import aaa.bbb.ccc09.slotsmachine.SlotsBuilder;
 import libs.mjn.prettydialog.PrettyDialog;
 
 public class GameActivity extends AppCompatActivity {

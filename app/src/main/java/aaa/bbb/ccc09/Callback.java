@@ -1,4 +1,4 @@
-package aaa.bbb.ccc09.slotsmachine;
+package aaa.bbb.ccc09;
 
 import android.support.v7.widget.LinearLayoutManager;
 

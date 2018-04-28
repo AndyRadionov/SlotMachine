@@ -1,4 +1,4 @@
-package aaa.bbb.ccc09.slotsmachine;
+package aaa.bbb.ccc09;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,6 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import aaa.bbb.ccc09.R;
 
 public class SlotAdapter extends RecyclerView.Adapter<SlotAdapter.ViewHolder> {
     private List<Integer> mDataset;

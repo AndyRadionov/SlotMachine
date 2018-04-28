@@ -1,4 +1,4 @@
-package aaa.bbb.ccc09.slotsmachine;
+package aaa.bbb.ccc09;
 
 import android.app.Activity;
 import android.os.Handler;

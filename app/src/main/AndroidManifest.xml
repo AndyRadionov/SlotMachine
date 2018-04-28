@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.SplashScreen"
+            android:name=".SplashScreen"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape">
             <intent-filter>
@@ -20,19 +20,19 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.MenuActivity"
+        <activity android:name=".MenuActivity"
             android:launchMode="singleTop"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape" />
 
         <activity
-            android:name=".ui.GameActivity"
-            android:parentActivityName=".ui.MenuActivity"
+            android:name=".GameActivity"
+            android:parentActivityName=".MenuActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="landscape" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MenuActivity" />
+                android:value=".MenuActivity" />
         </activity>
     </application>
 
